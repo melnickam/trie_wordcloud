@@ -1,0 +1,14 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/run_app.dir/app/main.cpp.o"
+  "CMakeFiles/run_app.dir/code/MenuFuncs.cpp.o"
+  "CMakeFiles/run_app.dir/code/Node.cpp.o"
+  "CMakeFiles/run_app.dir/code/PriorityQueue.cpp.o"
+  "CMakeFiles/run_app.dir/code/WordTrie.cpp.o"
+  "run_app"
+  "run_app.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/run_app.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
